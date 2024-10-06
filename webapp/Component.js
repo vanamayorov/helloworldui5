@@ -8,7 +8,7 @@ sap.ui.define([
         "sap/btp/helloworldui5/model/models",
         "sap/base/Log"
     ],
-    function (UIComponent, Device, models) {
+    function (UIComponent, Device, models, Log) {
         "use strict";
 
         return UIComponent.extend("sap.btp.helloworldui5.Component", {
